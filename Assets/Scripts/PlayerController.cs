@@ -15,8 +15,8 @@ public class PlayerController : UnitController {
 		_move.y = Input.GetAxis("Vertical");
 		
 		/*-- Face directing --*/
-		_face.x = Input.GetAxis("Face X");
-		_face.y = Input.GetAxis("Face Y");
+		_face.x = _move.x;
+		_face.y = _face.y;
 	}
 	
 	// Update is called once per frame
