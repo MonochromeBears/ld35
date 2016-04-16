@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 public class VisionController : MonoBehaviour {
-	public string targetTag;
+	public string[] targetTag = new string[2]{"enemy", "player"};
 	public Transform target;
 	public float distance = 0.5f;
 	
@@ -37,16 +38,26 @@ public class VisionController : MonoBehaviour {
 	}
 	
 	public virtual void OnTriggerEnter2D(Collider2D unitCol) {
-
-		if (unitCol.tag == targetTag) {
+		
+		if (targetTag.Contains(unitCol.tag)) {
 			UnitController unitController = unitCol.GetComponent<UnitController>();
 			visible.Add(unitController);
+		}
+	}
+
+	public virtual void OnTriggerStay2D(Collider2D unitCol) {
+
+		if (targetTag.Contains(unitCol.tag)) {
+			UnitController unitController = unitCol.GetComponent<UnitController>();
+			if (unitController.eating) {
+				print("I see it!");
+			}
 		}
 	}
 	
 	public virtual void OnTriggerExit2D(Collider2D unitCol) {
 
-		if (unitCol.tag == targetTag) {
+		if (targetTag.Contains(unitCol.tag)) {
 			UnitController unitController = unitCol.GetComponent<UnitController>();
 			visible.Remove(unitController);
 		}
