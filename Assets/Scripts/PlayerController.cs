@@ -5,9 +5,13 @@ using System.Collections.Generic;
 public class PlayerController : UnitController {
 	
 	public float flirtTime = 2f;
+	public float eatingTime = 2f;
+	public UnitController food;
 
 	private float flirtTimeDump = 0;
-	private List<UnitController> visibleDump = new List<UnitController>();
+	private float eatingTimeDump = 0;
+	private List<UnitController> flirting = new List<UnitController>();
+	private List<UnitController> following = new List<UnitController>();
 
 	// Use this for initialization
 	void Start () {
@@ -18,18 +22,40 @@ public class PlayerController : UnitController {
 	void FixedUpdate() {
 
 		List<UnitController> visible = vision.getVisible();
-		if (Input.GetAxis("Jump") == 1 && visible.Count > 0 && !flirts) {
+
+		int flirtType = 0;
+		if (Input.GetAxis("Flirt1") == 1) {
+			flirtType = 1;
+		} else if (Input.GetAxis("Flirt2") == 1) {
+			flirtType = 2;
+		} else if (Input.GetAxis("Flirt3") == 1) {
+			flirtType = 3;
+		}
+		
+		if (Input.GetAxis("Eat") == 1) {
+			// TODO: Ply tryEating animation and sound;
+			if (following.Count > 0 && visible.Contains(following[0])) {
+				food = following[0];
+				food.eating = true;
+				eating = true;
+				eatingTimeDump = eatingTime;
+				following.Clear();
+				// TODO: Start eating animation and sound;
+			}
+		}
+		
+		if (flirtType > 0 && visible.Count > 0 && !flirts) {
 			foreach (EnemyController enemy in visible) {
-				if (enemy.flirtFails) {
+				if (enemy.flirtFails || enemy.follow) {
 					continue;
 				}
 				flirts = true;
 				enemy.flirts = true;
 				flirtTimeDump = flirtTime;
-				if (enemy.flirtType != 1) {
+				if (enemy.flirtType != flirtType) {
 					enemy.flirtFails = true;
 				}
-				visibleDump.Add(enemy);
+				flirting.Add(enemy);
 			}
 			if (flirts) {
 				// TODO: Start flirt animation and flirt sound;
@@ -40,14 +66,21 @@ public class PlayerController : UnitController {
 			flirtTimeDump -= Time.deltaTime;
 		} else if(flirts && flirtTimeDump < 0 ) {
 			flirts = false;
-			foreach (EnemyController enemy in visibleDump) {
+			foreach (EnemyController enemy in flirting) {
 				enemy.flirts = false;
 				if (!enemy.flirtFails) {
 					enemy.follow = true;
+					following.Add(enemy);
 				}
 			}
-			visibleDump.Clear();
+			flirting.Clear();
 			// TODO: Stop flirt animation and flirt sound;
+		} else if(eating && eatingTimeDump > 0) {
+			eatingTimeDump -= Time.deltaTime;
+		} else if(eating && eatingTimeDump < 0) {
+			eating = false;
+			food.Death();
+			// TODO: Stop eating animation and sound;
 		} else {
 			UpdateAxis();
 		}
