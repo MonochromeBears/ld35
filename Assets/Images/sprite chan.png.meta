@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: b44d6cdd2d34f41eea7d81b67626d09b
+timeCreated: 1460825010
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprite chan_0
+    21300002: sprite chan_1
+    21300004: sprite chan_2
+    21300006: sprite chan_3
+    21300008: sprite chan_4
+    21300010: sprite chan_5
+    21300012: sprite chan_6
+    21300014: sprite chan_7
+    21300016: sprite chan_8
+    21300018: sprite chan_9
+    21300020: sprite chan_10
+    21300022: sprite chan_11
+    21300024: sprite chan_12
+    21300026: sprite chan_13
+    21300028: sprite chan_14
+    21300030: sprite chan_15
+    21300032: sprite chan_16
+    21300034: sprite chan_17
+    21300036: sprite chan_18
+    21300038: sprite chan_19
+    21300040: sprite chan_20
+    21300042: sprite chan_21
+    21300044: sprite chan_22
+    21300046: sprite chan_23
+    21300048: sprite chan_24
+    21300050: sprite chan_25
+    21300052: sprite chan_26
+    21300054: sprite chan_27
+    21300056: sprite chan_28
+    21300058: sprite chan_29
+    21300060: sprite chan_30
+    21300062: sprite chan_31
+    21300064: sprite chan_32
+    21300066: sprite chan_33
+    21300068: sprite chan_34
+    21300070: sprite chan_35
+    21300072: sprite chan_36
+    21300074: sprite chan_37
+    21300076: sprite chan_38
+    21300078: sprite chan_39
+    21300080: sprite chan_40
+    21300082: sprite chan_41
+    21300084: sprite chan_42
+    21300086: sprite chan_43
+    21300088: sprite chan_44
+    21300090: sprite chan_45
+    21300092: sprite chan_46
+    21300094: sprite chan_47
+    21300096: sprite chan_48
+    21300098: sprite chan_49
+    21300100: sprite chan_50
+    21300102: sprite chan_51
+    21300104: sprite chan_52
+    21300106: sprite chan_53
+    21300108: sprite chan_54
+    21300110: sprite chan_55
+    21300112: sprite chan_56
+    21300114: sprite chan_57
+    21300116: sprite chan_58
+    21300118: sprite chan_59
+    21300120: sprite chan_60
+    21300122: sprite chan_61
+    21300124: sprite chan_62
+    21300126: sprite chan_63
+    21300128: sprite chan_64
+    21300130: sprite chan_65
+    21300132: sprite chan_66
+    21300134: sprite chan_67
+    21300136: sprite chan_68
+    21300138: sprite chan_69
+    21300140: sprite chan_70
+    21300142: sprite chan_71
+    21300144: sprite chan_72
+    21300146: sprite chan_73
+    21300148: sprite chan_74
+    21300150: sprite chan_75
+    21300152: sprite chan_76
+    21300154: sprite chan_77
+    21300156: sprite chan_78
+    21300158: sprite chan_79
+    21300160: sprite chan_80
+    21300162: sprite chan_81
+    21300164: sprite chan_82
+    21300166: sprite chan_83
+    21300168: sprite chan_84
+    21300170: sprite chan_85
+    21300172: sprite chan_86
+    21300174: sprite chan_87
+    21300176: sprite chan_88
+    21300178: sprite chan_89
+    21300180: sprite chan_90
+    21300182: sprite chan_91
+    21300184: sprite chan_92
+    21300186: sprite chan_93
+    21300188: sprite chan_94
+    21300190: sprite chan_95
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 2
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 72
+  alphaIsTransparency: 0
+  textureType: 5
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sprite chan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3702
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_1
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3702
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_2
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 3702
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_3
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 3702
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_4
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 3702
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3204
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_6
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3204
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_7
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 3204
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_8
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 3204
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_9
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 3204
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2706
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_11
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2706
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_12
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2706
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_13
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2706
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_14
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 2706
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2208
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_16
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2208
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_17
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2208
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_18
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2208
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_19
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 2208
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1710
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_21
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1710
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_22
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1710
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_23
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1710
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_24
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1710
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
