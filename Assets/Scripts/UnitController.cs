@@ -30,6 +30,7 @@ public abstract class UnitController : MonoBehaviour {
 	}
 	
 	public virtual void Death() {
+		// TODO: Play die animation and sound;
 		DestroyObject(this.gameObject);
 	}
 

@@ -33,7 +33,7 @@ public class PlayerController : UnitController {
 		}
 		
 		if (Input.GetAxis("Eat") == 1) {
-			// TODO: Start tryEating animation and sound;
+			// TODO: Ply tryEating animation and sound;
 			if (following.Count > 0 && visible.Contains(following[0])) {
 				food = following[0];
 				food.eating = true;
@@ -80,6 +80,7 @@ public class PlayerController : UnitController {
 		} else if(eating && eatingTimeDump < 0) {
 			eating = false;
 			food.Death();
+			// TODO: Stop eating animation and sound;
 		} else {
 			UpdateAxis();
 		}
