@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class VisionController : MonoBehaviour {
 	public string targetTag;
@@ -9,6 +10,7 @@ public class VisionController : MonoBehaviour {
 	private UnitController targetController;
 	private float smoothTime = 0.5f;
 	private Vector2 newPositionDamp = new Vector2(-1, 0);
+	private List<UnitController> visible = new List<UnitController>();
 
 	// Use this for initialization
 	void Start () {
@@ -31,10 +33,19 @@ public class VisionController : MonoBehaviour {
 		transform.rotation = Quaternion.Euler(newRotation);
 	}
 	
-	public virtual void OnTriggerEnter2D(Collider2D hitBox) {
-		
-		if (hitBox.tag == targetTag) {
-//			print ("entred");
+	public virtual void OnTriggerEnter2D(Collider2D unitCol) {
+
+		if (unitCol.tag == targetTag) {
+			UnitController unitController = unitCol.GetComponent<UnitController>();
+			visible.Add(unitController);
+		}
+	}
+	
+	public virtual void OnTriggerExit2D(Collider2D unitCol) {
+
+		if (unitCol.tag == targetTag) {
+			UnitController unitController = unitCol.GetComponent<UnitController>();
+			visible.Remove(unitController);
 		}
 	}
 }
