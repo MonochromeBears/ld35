@@ -18,7 +18,6 @@ public class SpriteController : MonoBehaviour {
 	void Update () {
 		float newDirection = __unitController.GetDirectionRads();
 		if (newDirection != __direction) {
-			print (newDirection);
 			__direction = newDirection;
 			int sprite = (int) Mathf.Round(__direction / __sector);
 			if (sprite >= sprites.Length){

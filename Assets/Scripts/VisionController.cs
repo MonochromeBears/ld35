@@ -9,7 +9,6 @@ public class VisionController : MonoBehaviour {
 	
 	private UnitController targetController;
 	private float smoothTime = 0.5f;
-	private Vector2 newPositionDamp = new Vector2(-1, 0);
 	private List<UnitController> visible = new List<UnitController>();
 
 	// Use this for initialization
@@ -31,6 +30,10 @@ public class VisionController : MonoBehaviour {
 		float targetDirectionGrads = targetDirectionRads * (180 / Mathf.PI);
 		Vector3 newRotation = new Vector3(0, 0, -targetDirectionGrads);
 		transform.rotation = Quaternion.Euler(newRotation);
+	}
+
+	public List<UnitController> getVisible() {
+		return visible;
 	}
 	
 	public virtual void OnTriggerEnter2D(Collider2D unitCol) {
