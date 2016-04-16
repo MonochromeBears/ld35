@@ -13,6 +13,7 @@ public abstract class UnitController : MonoBehaviour {
 	public float moveSideGrads = 80;
 	public VisionController vision;
 	public bool flirts = false;
+	public bool eating = false;
 
 	protected float usedSpeed = 0;
 	protected Vector2 _move = new Vector2(0, 0);
