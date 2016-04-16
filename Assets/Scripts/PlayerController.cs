@@ -16,7 +16,7 @@ public class PlayerController : UnitController {
 		
 		/*-- Face directing --*/
 		_face.x = _move.x;
-		_face.y = _face.y;
+		_face.y = _move.y;
 	}
 	
 	// Update is called once per frame
