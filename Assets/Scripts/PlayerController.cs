@@ -38,10 +38,11 @@ public class PlayerController : UnitController {
 			// TODO: Ply tryEating sound;
 			if (following.Count > 0 && visible.Contains(following[0])) {
 				food = following[0];
-				food.eating = true;
 				eating = true;
+				food.eating = true;
 				eatingTimeDump = eatingTime;
 				following.Clear();
+				_RelocateForMeet(food.GetComponent<Transform>());
 				// TODO: Start eatin sound;
 			}
 		}
@@ -51,6 +52,7 @@ public class PlayerController : UnitController {
 				if (enemy.flirtFails || enemy.follow) {
 					continue;
 				}
+				_RelocateForMeet(enemy.GetComponent<Transform>());
 				flirts = true;
 				enemy.flirts = true;
 				flirtTimeDump = flirtTime;
@@ -81,9 +83,11 @@ public class PlayerController : UnitController {
 			// TODO: Stop flirt sound;
 		} else if(eating && eatingTimeDump > 0) {
 			eatingTimeDump -= Time.deltaTime;
+			if (eatingTime - eatingTimeDump > 1 && food != null) {
+				food.Death();
+			}
 		} else if(eating && eatingTimeDump < 0) {
 			eating = false;
-			food.Death();
 			animator.SetBool("Eating", false);
 			// TODO: Stop eating sound;
 		} else {

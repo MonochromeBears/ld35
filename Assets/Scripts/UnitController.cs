@@ -14,6 +14,7 @@ public abstract class UnitController : MonoBehaviour {
 	public VisionController vision;
 	public bool flirts = false;
 	public bool eating = false;
+	public Animator animator;
 
 	protected float usedSpeed = 0;
 	protected Vector2 _move = new Vector2(0, 0);
@@ -21,7 +22,6 @@ public abstract class UnitController : MonoBehaviour {
 	protected Vector2 _velocity;
 	protected bool _facingRight = false;
 	protected Vector2 _direction = new Vector2(-1, 0);
-	protected Animator animator;
 	protected float directionsCount = 0;
 	
 	public virtual void TakeADamage(float dmg) {
@@ -100,5 +100,23 @@ public abstract class UnitController : MonoBehaviour {
 		}
 
 		animator.SetBool("Moving", moving);
+	}
+
+	protected virtual void _RelocateForMeet(Transform target) {
+		var targetX = target.position.x;
+		var selfX = transform.position.x;
+
+		if (targetX > selfX) {
+			selfX = targetX;
+			targetX -= 2.5f;
+		} else {
+			targetX = selfX - 2.5f;
+		}
+
+		target.position = new Vector3(targetX, transform.position.y, target.position.z);
+		UnitController enemyController = target.GetComponent<UnitController>();
+		enemyController.animator.SetInteger("Direction", 2);
+		transform.position = new Vector3(selfX, transform.position.y, transform.position.z);
+		animator.SetInteger("Direction", 3);
 	}
 }
