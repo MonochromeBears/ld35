@@ -60,6 +60,7 @@ public abstract class UnitController : MonoBehaviour {
 	protected virtual void _Move() {
 
 		if (flirts || eating) {
+			animator.SetBool("Moving", false);
 			return;
 		}
 
