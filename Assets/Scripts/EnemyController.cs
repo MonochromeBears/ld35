@@ -3,7 +3,7 @@ using System.Collections;
 
 public class EnemyController : UnitController {
 
-	public int flirtType = 1;
+	public int flirtType = 0;
 	public bool follow = false;
 	public bool flirtFails = false;
 	public int followDistance = 1;
@@ -15,6 +15,7 @@ public class EnemyController : UnitController {
 	private float dirY = 0;
 
 	void Start() {
+		flirtType = (int) (Random.value * 3);
 		animator = GetComponent<Animator>();
 		walkTimer = walkTimer;
 		dirX = Random.value * 1000;
