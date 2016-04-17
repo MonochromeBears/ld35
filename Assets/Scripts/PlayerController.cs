@@ -42,7 +42,7 @@ public class PlayerController : UnitController {
 			print (following.Count);
 			// TODO: Ply tryEating sound;
 			if (following.Count > 0 && visible.Contains(following[0])) {
-				print ("Here we are");
+
 				animator.SetTrigger("EatIt");				
 				food = following[0];
 				eating = true;

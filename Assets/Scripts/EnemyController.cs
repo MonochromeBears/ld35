@@ -9,13 +9,37 @@ public class EnemyController : UnitController {
 	public int followDistance = 1;
 	public Transform target;
 
+	private float walkTime = 20f;
+	private float walkTimer = 0;
+	private float dirX = 0;
+	private float dirY = 0;
+
 	void Start() {
 		animator = GetComponent<Animator>();
+		walkTimer = walkTimer;
+		dirX = Random.value * 1000;
+		dirY = Random.value * 800;
 	}
 
 
 	// Update is called once per phisics frame
 	void FixedUpdate() {
+		Vector2 newspeed = Vector2.zero;
+
+		walkTimer -= Time.deltaTime;
+
+		if (walkTime <= 0) {
+			walkTime = walkTimer;
+			Vector2 speed = Vector2.zero;
+
+		}
+
+		newspeed = new Vector2(dirX, dirY).normalized;
+		_move.x = newspeed.x;
+		_move.y = newspeed.y;
+
+		_face.x = _move.x;
+		_face.y = _move.y;
 
 		if (follow) {
 			Vector2 speed = Vector2.zero;
