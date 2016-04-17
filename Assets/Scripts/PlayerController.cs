@@ -15,7 +15,8 @@ public class PlayerController : UnitController {
 
 	// Use this for initialization
 	void Start () {
-	
+		animator = GetComponent<Animator>();
+		directionsCount = Mathf.PI * 2 / 4;
 	}
 	
 	// Update is called once per phisics frame
@@ -33,14 +34,15 @@ public class PlayerController : UnitController {
 		}
 		
 		if (Input.GetAxis("Eat") == 1) {
-			// TODO: Ply tryEating animation and sound;
+			animator.SetBool("Eating", true);
+			// TODO: Ply tryEating sound;
 			if (following.Count > 0 && visible.Contains(following[0])) {
 				food = following[0];
 				food.eating = true;
 				eating = true;
 				eatingTimeDump = eatingTime;
 				following.Clear();
-				// TODO: Start eating animation and sound;
+				// TODO: Start eatin sound;
 			}
 		}
 		
@@ -58,7 +60,8 @@ public class PlayerController : UnitController {
 				flirting.Add(enemy);
 			}
 			if (flirts) {
-				// TODO: Start flirt animation and flirt sound;
+				animator.SetInteger("Flirting", flirtType);
+				// TODO: Start flirt sound;
 			}
 		}
 		
@@ -74,13 +77,15 @@ public class PlayerController : UnitController {
 				}
 			}
 			flirting.Clear();
-			// TODO: Stop flirt animation and flirt sound;
+			animator.SetInteger("Flirting", 0);
+			// TODO: Stop flirt sound;
 		} else if(eating && eatingTimeDump > 0) {
 			eatingTimeDump -= Time.deltaTime;
 		} else if(eating && eatingTimeDump < 0) {
 			eating = false;
 			food.Death();
-			// TODO: Stop eating animation and sound;
+			animator.SetBool("Eating", false);
+			// TODO: Stop eating sound;
 		} else {
 			UpdateAxis();
 		}

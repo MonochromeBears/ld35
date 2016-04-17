@@ -21,6 +21,8 @@ public abstract class UnitController : MonoBehaviour {
 	protected Vector2 _velocity;
 	protected bool _facingRight = false;
 	protected Vector2 _direction = new Vector2(-1, 0);
+	protected Animator animator;
+	protected float directionsCount = 0;
 	
 	public virtual void TakeADamage(float dmg) {
 		health -= dmg;
@@ -49,10 +51,18 @@ public abstract class UnitController : MonoBehaviour {
 	protected virtual void _UpdateDirection() {
 		if (Vector2.zero != _face) {
 			_direction = _face.normalized;
+			float directionRads = GetDirectionRads();
+			int animationDirection = (int) Mathf.Round(directionRads / directionsCount);
+			animator.SetInteger("Direction", animationDirection + 1);
 		}
 	}
 		
 	protected virtual void _Move() {
+
+		if (flirts || eating) {
+			return;
+		}
+
 		usedSpeed = moveForvardSpeed;
 
 		float targetX;
@@ -80,6 +90,14 @@ public abstract class UnitController : MonoBehaviour {
 			ref _velocity.y,
 			smoothTime
 		);
-		transform.position = new Vector3(targetX, targetY, transform.position.z);
+
+		bool moving = targetX != transform.position.x
+			|| targetY != transform.position.y;
+
+		if (moving) {
+			transform.position = new Vector3(targetX, targetY, transform.position.z);
+		}
+
+		animator.SetBool("Moving", moving);
 	}
 }
