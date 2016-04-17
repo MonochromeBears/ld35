@@ -36,6 +36,10 @@ public class PlayerController : UnitController {
 		}
 
 
+		if (Input.GetAxis("Reload") == 1) {
+			Application.LoadLevel("MainMenu");
+		}
+
 		
 		if (Input.GetAxis("Eat") == 1) {
 			print ("Pressed");
