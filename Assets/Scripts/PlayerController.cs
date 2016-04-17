@@ -5,13 +5,15 @@ using System.Collections.Generic;
 public class PlayerController : UnitController {
 	
 	public float flirtTime = 2f;
-	public float eatingTime = 2f;
+	public float eatTime = 2f;
 	public UnitController food;
 
 	private float flirtTimeDump = 0;
-	private float eatingTimeDump = 0;
+	private float eatTimeDump = 0;
 	private List<UnitController> flirting = new List<UnitController>();
 	private List<UnitController> following = new List<UnitController>();
+
+	private bool emptyBelly = false;
 
 	// Use this for initialization
 	void Start () {
@@ -21,7 +23,7 @@ public class PlayerController : UnitController {
 	
 	// Update is called once per phisics frame
 	void FixedUpdate() {
-
+		//print ("vasya");
 		List<UnitController> visible = vision.getVisible();
 
 		int flirtType = 0;
@@ -32,21 +34,29 @@ public class PlayerController : UnitController {
 		} else if (Input.GetAxis("Flirt3") == 1) {
 			flirtType = 3;
 		}
+
+
 		
 		if (Input.GetAxis("Eat") == 1) {
-			animator.SetBool("Eating", true);
+			print ("Pressed");
+			print (following.Count);
 			// TODO: Ply tryEating sound;
 			if (following.Count > 0 && visible.Contains(following[0])) {
+				print ("Here we are");
+				animator.SetTrigger("EatIt");				
 				food = following[0];
 				eating = true;
 				food.eating = true;
-				eatingTimeDump = eatingTime;
+				food.Death ();
 				following.Clear();
+				eatTimeDump = eatTime;
 				_RelocateForMeet(food.GetComponent<Transform>());
 				// TODO: Start eatin sound;
 			}
 		}
-		
+
+
+		// FLIRT
 		if (flirtType > 0 && visible.Count > 0 && !flirts) {
 			foreach (EnemyController enemy in visible) {
 				if (enemy.flirtFails || enemy.follow) {
@@ -66,33 +76,38 @@ public class PlayerController : UnitController {
 				// TODO: Start flirt sound;
 			}
 		}
-		
-		if (flirts && flirtTimeDump > 0 ) {
+
+		if (flirts && flirtTimeDump > 0) {
 			flirtTimeDump -= Time.deltaTime;
-		} else if(flirts && flirtTimeDump < 0 ) {
+		} else if (flirts && flirtTimeDump < 0) {
 			flirts = false;
 			foreach (EnemyController enemy in flirting) {
 				enemy.flirts = false;
 				if (!enemy.flirtFails) {
 					enemy.follow = true;
-					following.Add(enemy);
+					following.Add (enemy);
 				}
 			}
-			flirting.Clear();
-			animator.SetInteger("Flirting", 0);
+			flirting.Clear ();
+			animator.SetInteger ("Flirting", 0);
 			// TODO: Stop flirt sound;
-		} else if(eating && eatingTimeDump > 0) {
-			eatingTimeDump -= Time.deltaTime;
-			if (eatingTime - eatingTimeDump > 1 && food != null) {
-				food.Death();
-			}
-		} else if(eating && eatingTimeDump < 0) {
-			eating = false;
-			animator.SetBool("Eating", false);
-			// TODO: Stop eating sound;
 		} else {
-			UpdateAxis();
+			UpdateAxis ();
 		}
+
+
+		if (eating && eatTimeDump > 0) {
+			eatTimeDump -= Time.deltaTime;
+		} else if(eating && eatTimeDump <= 0) {
+			eating = false;
+		} else {
+			UpdateAxis ();
+		}
+
+		//print (eatTimeDump);
+
+
+
 
 	}
 	

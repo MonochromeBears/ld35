@@ -49,9 +49,9 @@ public class VisionController : MonoBehaviour {
 
 		if (targetTag.Contains(unitCol.tag)) {
 			UnitController unitController = unitCol.GetComponent<UnitController>();
-			if (unitController.eating) {
-				print("I see it!");
-			}
+//			if (unitController.eating) {
+//				print("I see it!");
+//			}
 		}
 	}
 	
