@@ -1,34 +1,29 @@
 fileFormatVersion: 2
-guid: 38cd5d982290248a0af330eb1b467f42
-timeCreated: 1460871791
+guid: ba376e1a3c16c49b189f42cda11ea147
+timeCreated: 1460871769
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: lamber sprites_0
-    21300002: lamber sprites_1
-    21300004: lamber sprites_2
-    21300006: lamber sprites_3
-    21300008: lamber sprites_4
-    21300010: lamber sprites_5
-    21300012: lamber sprites_6
-    21300014: lamber sprites_7
-    21300016: lamber sprites_8
-    21300018: lamber sprites_9
-    21300020: lamber sprites_10
-    21300022: lamber sprites_11
-    21300024: lamber sprites_12
-    21300026: lamber sprites_13
-    21300028: lamber sprites_14
-    21300030: lamber sprites_15
-    21300032: lamber sprites_16
-    21300034: lamber sprites_17
-    21300036: lamber sprites_18
-    21300038: lamber sprites_19
-    21300040: lamber sprites_20
-    21300042: lamber sprites_21
-    21300044: lamber sprites_22
-    21300046: lamber sprites_23
-    21300048: lamber sprites_24
+    21300000: geek sprites_0
+    21300002: geek sprites_1
+    21300004: geek sprites_2
+    21300006: geek sprites_3
+    21300008: geek sprites_4
+    21300010: geek sprites_5
+    21300012: geek sprites_6
+    21300014: geek sprites_7
+    21300016: geek sprites_8
+    21300018: geek sprites_9
+    21300020: geek sprites_10
+    21300022: geek sprites_11
+    21300024: geek sprites_12
+    21300026: geek sprites_13
+    21300028: geek sprites_14
+    21300030: geek sprites_15
+    21300032: geek sprites_16
+    21300034: geek sprites_17
+    21300036: geek sprites_18
+    21300038: geek sprites_19
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,13 +50,13 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: 0
-    aniso: 16
+    aniso: -1
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 2
-  compressionQuality: 100
+  compressionQuality: 50
   allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
@@ -75,7 +70,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: lamber sprites_0
+    - name: geek sprites_0
       rect:
         serializedVersion: 2
         x: 0
@@ -86,7 +81,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_1
+    - name: geek sprites_1
       rect:
         serializedVersion: 2
         x: 498
@@ -97,7 +92,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_2
+    - name: geek sprites_2
       rect:
         serializedVersion: 2
         x: 996
@@ -108,7 +103,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_3
+    - name: geek sprites_3
       rect:
         serializedVersion: 2
         x: 1494
@@ -119,7 +114,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_4
+    - name: geek sprites_4
       rect:
         serializedVersion: 2
         x: 1992
@@ -130,7 +125,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_5
+    - name: geek sprites_5
       rect:
         serializedVersion: 2
         x: 0
@@ -141,7 +136,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_6
+    - name: geek sprites_6
       rect:
         serializedVersion: 2
         x: 498
@@ -152,7 +147,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_7
+    - name: geek sprites_7
       rect:
         serializedVersion: 2
         x: 996
@@ -163,7 +158,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_8
+    - name: geek sprites_8
       rect:
         serializedVersion: 2
         x: 1494
@@ -174,7 +169,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_9
+    - name: geek sprites_9
       rect:
         serializedVersion: 2
         x: 1992
@@ -182,10 +177,10 @@ TextureImporter:
         width: 498
         height: 502
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_10
+    - name: geek sprites_10
       rect:
         serializedVersion: 2
         x: 0
@@ -196,7 +191,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_11
+    - name: geek sprites_11
       rect:
         serializedVersion: 2
         x: 498
@@ -207,7 +202,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_12
+    - name: geek sprites_12
       rect:
         serializedVersion: 2
         x: 996
@@ -218,7 +213,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_13
+    - name: geek sprites_13
       rect:
         serializedVersion: 2
         x: 1494
@@ -229,7 +224,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_14
+    - name: geek sprites_14
       rect:
         serializedVersion: 2
         x: 1992
@@ -240,7 +235,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_15
+    - name: geek sprites_15
       rect:
         serializedVersion: 2
         x: 0
@@ -251,7 +246,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_16
+    - name: geek sprites_16
       rect:
         serializedVersion: 2
         x: 498
@@ -262,7 +257,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_17
+    - name: geek sprites_17
       rect:
         serializedVersion: 2
         x: 996
@@ -273,7 +268,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_18
+    - name: geek sprites_18
       rect:
         serializedVersion: 2
         x: 1494
@@ -284,7 +279,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: lamber sprites_19
+    - name: geek sprites_19
       rect:
         serializedVersion: 2
         x: 1992

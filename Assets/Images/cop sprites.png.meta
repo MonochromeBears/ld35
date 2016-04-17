@@ -1,13 +1,38 @@
 fileFormatVersion: 2
 guid: d5652c08c49c6408899b3e3940e778aa
-timeCreated: 1460867826
+timeCreated: 1460871777
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: cop sprites_0
+    21300002: cop sprites_1
+    21300004: cop sprites_2
+    21300006: cop sprites_3
+    21300008: cop sprites_4
+    21300010: cop sprites_5
+    21300012: cop sprites_6
+    21300014: cop sprites_7
+    21300016: cop sprites_8
+    21300018: cop sprites_9
+    21300020: cop sprites_10
+    21300022: cop sprites_11
+    21300024: cop sprites_12
+    21300026: cop sprites_13
+    21300028: cop sprites_14
+    21300030: cop sprites_15
+    21300032: cop sprites_16
+    21300034: cop sprites_17
+    21300036: cop sprites_18
+    21300038: cop sprites_19
+    21300040: cop sprites_20
+    21300042: cop sprites_21
+    21300044: cop sprites_22
+    21300046: cop sprites_23
+    21300048: cop sprites_24
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -26,30 +51,294 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: 4
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
-  rGBM: 0
+  rGBM: 2
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 0
-  textureType: -1
+  textureType: 5
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: cop sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3698
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_1
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3698
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_2
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 3698
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_3
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 3698
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_4
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 3698
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3196
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_6
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3196
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_7
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 3196
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_8
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 3196
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_9
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 3196
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2694
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_11
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2694
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_12
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2694
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_13
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2694
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_14
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 2694
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2192
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_16
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2192
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_17
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2192
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_18
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2192
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_19
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 2192
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1690
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_21
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1690
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_22
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1690
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cop sprites_23
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1690
+        width: 498
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 

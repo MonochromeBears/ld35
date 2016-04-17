@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b44d6cdd2d34f41eea7d81b67626d09b
-timeCreated: 1460860491
+timeCreated: 1460871859
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -150,31 +150,31 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6300
+        y: 6298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: sprite chan_1
       rect:
         serializedVersion: 2
         x: 498
-        y: 6300
+        y: 6298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: sprite chan_2
       rect:
         serializedVersion: 2
         x: 996
-        y: 6300
+        y: 6298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,9 +183,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1494
-        y: 6300
+        y: 6298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,9 +194,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 5802
+        y: 5798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,9 +205,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 498
-        y: 5802
+        y: 5798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,9 +216,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 996
-        y: 5802
+        y: 5798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,9 +227,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1494
-        y: 5802
+        y: 5798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,9 +238,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 5304
+        y: 5298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,9 +249,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 498
-        y: 5304
+        y: 5298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,9 +260,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 996
-        y: 5304
+        y: 5298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +271,20 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1494
-        y: 5304
+        y: 5298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: sprite chan_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 4806
+        y: 4798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,9 +293,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 498
-        y: 4806
+        y: 4798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,9 +304,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 996
-        y: 4806
+        y: 4798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,9 +315,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1494
-        y: 4806
+        y: 4798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,10 +325,10 @@ TextureImporter:
     - name: sprite chan_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4308
+        x: 1992
+        y: 4798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
     - name: sprite chan_17
       rect:
         serializedVersion: 2
-        x: 498
-        y: 4308
+        x: 2490
+        y: 4798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +347,10 @@ TextureImporter:
     - name: sprite chan_18
       rect:
         serializedVersion: 2
-        x: 996
-        y: 4308
+        x: 2988
+        y: 4798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +358,10 @@ TextureImporter:
     - name: sprite chan_19
       rect:
         serializedVersion: 2
-        x: 1494
-        y: 4308
+        x: 3486
+        y: 4798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -369,10 +369,10 @@ TextureImporter:
     - name: sprite chan_20
       rect:
         serializedVersion: 2
-        x: 1992
-        y: 4308
+        x: 3984
+        y: 4798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +380,10 @@ TextureImporter:
     - name: sprite chan_21
       rect:
         serializedVersion: 2
-        x: 2490
-        y: 4308
+        x: 4482
+        y: 4798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,10 +391,10 @@ TextureImporter:
     - name: sprite chan_22
       rect:
         serializedVersion: 2
-        x: 2988
-        y: 4308
+        x: 4980
+        y: 4798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
     - name: sprite chan_23
       rect:
         serializedVersion: 2
-        x: 3486
-        y: 4308
+        x: 0
+        y: 4298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,10 +413,10 @@ TextureImporter:
     - name: sprite chan_24
       rect:
         serializedVersion: 2
-        x: 3984
-        y: 4308
+        x: 498
+        y: 4298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +424,10 @@ TextureImporter:
     - name: sprite chan_25
       rect:
         serializedVersion: 2
-        x: 4482
-        y: 4308
+        x: 996
+        y: 4298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,10 +435,10 @@ TextureImporter:
     - name: sprite chan_26
       rect:
         serializedVersion: 2
-        x: 4980
-        y: 4308
+        x: 1494
+        y: 4298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +446,10 @@ TextureImporter:
     - name: sprite chan_27
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3810
+        x: 1992
+        y: 4298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,10 +457,10 @@ TextureImporter:
     - name: sprite chan_28
       rect:
         serializedVersion: 2
-        x: 498
-        y: 3810
+        x: 2490
+        y: 4298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +468,10 @@ TextureImporter:
     - name: sprite chan_29
       rect:
         serializedVersion: 2
-        x: 996
-        y: 3810
+        x: 2988
+        y: 4298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,10 +479,10 @@ TextureImporter:
     - name: sprite chan_30
       rect:
         serializedVersion: 2
-        x: 1494
-        y: 3810
+        x: 3486
+        y: 4298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +490,10 @@ TextureImporter:
     - name: sprite chan_31
       rect:
         serializedVersion: 2
-        x: 1992
-        y: 3810
+        x: 3984
+        y: 4298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -501,10 +501,10 @@ TextureImporter:
     - name: sprite chan_32
       rect:
         serializedVersion: 2
-        x: 2490
-        y: 3810
+        x: 4482
+        y: 4298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
     - name: sprite chan_33
       rect:
         serializedVersion: 2
-        x: 2988
-        y: 3810
+        x: 4980
+        y: 4298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,10 +523,10 @@ TextureImporter:
     - name: sprite chan_34
       rect:
         serializedVersion: 2
-        x: 3486
-        y: 3810
+        x: 0
+        y: 3798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,10 +534,10 @@ TextureImporter:
     - name: sprite chan_35
       rect:
         serializedVersion: 2
-        x: 3984
-        y: 3810
+        x: 498
+        y: 3798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -545,10 +545,10 @@ TextureImporter:
     - name: sprite chan_36
       rect:
         serializedVersion: 2
-        x: 4482
-        y: 3810
+        x: 996
+        y: 3798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +556,10 @@ TextureImporter:
     - name: sprite chan_37
       rect:
         serializedVersion: 2
-        x: 4980
-        y: 3810
+        x: 1494
+        y: 3798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -567,10 +567,10 @@ TextureImporter:
     - name: sprite chan_38
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3312
+        x: 1992
+        y: 3798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,10 +578,10 @@ TextureImporter:
     - name: sprite chan_39
       rect:
         serializedVersion: 2
-        x: 498
-        y: 3312
+        x: 2490
+        y: 3798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -589,10 +589,10 @@ TextureImporter:
     - name: sprite chan_40
       rect:
         serializedVersion: 2
-        x: 996
-        y: 3312
+        x: 2988
+        y: 3798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,10 +600,10 @@ TextureImporter:
     - name: sprite chan_41
       rect:
         serializedVersion: 2
-        x: 1494
-        y: 3312
+        x: 3486
+        y: 3798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -611,10 +611,10 @@ TextureImporter:
     - name: sprite chan_42
       rect:
         serializedVersion: 2
-        x: 1992
-        y: 3312
+        x: 3984
+        y: 3798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,10 +622,10 @@ TextureImporter:
     - name: sprite chan_43
       rect:
         serializedVersion: 2
-        x: 2490
-        y: 3312
+        x: 4482
+        y: 3798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -633,10 +633,10 @@ TextureImporter:
     - name: sprite chan_44
       rect:
         serializedVersion: 2
-        x: 2988
-        y: 3312
+        x: 4980
+        y: 3798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -645,9 +645,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2814
+        y: 3298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,9 +656,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 498
-        y: 2814
+        y: 3298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -667,9 +667,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 996
-        y: 2814
+        y: 3298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,9 +678,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1494
-        y: 2814
+        y: 3298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -689,9 +689,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1992
-        y: 2814
+        y: 3298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,9 +700,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2490
-        y: 2814
+        y: 3298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -711,9 +711,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2988
-        y: 2814
+        y: 3298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,9 +722,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2316
+        y: 2798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -733,9 +733,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 498
-        y: 2316
+        y: 2798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -744,9 +744,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 996
-        y: 2316
+        y: 2798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,10 +754,10 @@ TextureImporter:
     - name: sprite chan_55
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1818
+        x: 1494
+        y: 2798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -765,10 +765,10 @@ TextureImporter:
     - name: sprite chan_56
       rect:
         serializedVersion: 2
-        x: 498
-        y: 1818
+        x: 1992
+        y: 2798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -776,10 +776,10 @@ TextureImporter:
     - name: sprite chan_57
       rect:
         serializedVersion: 2
-        x: 996
-        y: 1818
+        x: 2490
+        y: 2798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -787,10 +787,10 @@ TextureImporter:
     - name: sprite chan_58
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1320
+        x: 2988
+        y: 2798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -798,10 +798,10 @@ TextureImporter:
     - name: sprite chan_59
       rect:
         serializedVersion: 2
-        x: 498
-        y: 1320
+        x: 0
+        y: 2298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -809,10 +809,10 @@ TextureImporter:
     - name: sprite chan_60
       rect:
         serializedVersion: 2
-        x: 996
-        y: 1320
+        x: 498
+        y: 2298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -820,10 +820,10 @@ TextureImporter:
     - name: sprite chan_61
       rect:
         serializedVersion: 2
-        x: 0
-        y: 822
+        x: 996
+        y: 2298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -831,10 +831,10 @@ TextureImporter:
     - name: sprite chan_62
       rect:
         serializedVersion: 2
-        x: 498
-        y: 822
+        x: 0
+        y: 1798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -842,10 +842,10 @@ TextureImporter:
     - name: sprite chan_63
       rect:
         serializedVersion: 2
-        x: 996
-        y: 822
+        x: 498
+        y: 1798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -853,10 +853,10 @@ TextureImporter:
     - name: sprite chan_64
       rect:
         serializedVersion: 2
-        x: 0
-        y: 324
+        x: 996
+        y: 1798
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -864,10 +864,10 @@ TextureImporter:
     - name: sprite chan_65
       rect:
         serializedVersion: 2
-        x: 498
-        y: 324
+        x: 0
+        y: 1298
         width: 498
-        height: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -875,10 +875,54 @@ TextureImporter:
     - name: sprite chan_66
       rect:
         serializedVersion: 2
-        x: 996
-        y: 324
+        x: 498
+        y: 1298
         width: 498
-        height: 498
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_67
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1298
+        width: 498
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 798
+        width: 498
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_69
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 798
+        width: 498
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprite chan_70
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 798
+        width: 498
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
