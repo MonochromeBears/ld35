@@ -125,7 +125,6 @@ public class PlayerController : UnitController {
 		/*-- Moving --*/
 		_move.x = Input.GetAxis("Horizontal");
 		_move.y = Input.GetAxis("Vertical");
-		
 		/*-- Face directing --*/
 		_face.x = _move.x;
 		_face.y = _move.y;
