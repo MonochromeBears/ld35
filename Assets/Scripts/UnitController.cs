@@ -17,11 +17,11 @@ public abstract class UnitController : MonoBehaviour {
 	public Animator animator;
 
 	protected float usedSpeed = 0;
-	protected Vector2 _move = new Vector2(0, 0);
-	protected Vector2 _face = new Vector2(-1, 0);
-	protected Vector2 _velocity;
+	protected Vector3 _move = new Vector3(0, 0, 0);
+	protected Vector3 _face = new Vector3(-1, 0, 0);
+	protected Vector3 _velocity;
 	protected bool _facingRight = false;
-	protected Vector2 _direction = new Vector2(-1, 0);
+	protected Vector3 _direction = new Vector3(-1, 0, 0);
 	protected float directionsCount = 0;
 	
 	public virtual void TakeADamage(float dmg) {
@@ -37,7 +37,7 @@ public abstract class UnitController : MonoBehaviour {
 	}
 
 	public float GetDirectionRads() {
-		float direction = Mathf.Acos(_direction.y);
+		float direction = Mathf.Acos(_direction.z);
 		if (_direction.x < 0) {
 			direction = Mathf.PI * 2 - direction;
 		}
@@ -49,7 +49,7 @@ public abstract class UnitController : MonoBehaviour {
 	}
 	
 	protected virtual void _UpdateDirection() {
-		if (Vector2.zero != _face) {
+		if (Vector3.zero != _face) {
 			_direction = _face.normalized;
 			float directionRads = GetDirectionRads();
 			int animationDirection = (int) Mathf.Round(directionRads / directionsCount);
@@ -69,7 +69,7 @@ public abstract class UnitController : MonoBehaviour {
 		float targetX;
 		float targetY;
 
-		float faceDiffGrad = Mathf.Acos(_move.normalized.x * _direction.x + _move.normalized.y * _direction.y)
+		float faceDiffGrad = Mathf.Acos(_move.normalized.x * _direction.x + _move.normalized.z * _direction.z)
 			* (180 / Mathf.PI);
 		if (faceDiffGrad > moveBackGrads) {
 			usedSpeed = moveBackSpeed;
@@ -80,23 +80,23 @@ public abstract class UnitController : MonoBehaviour {
 		}
 
 		targetX = Mathf.SmoothDamp (
-			transform.position.x,
-			transform.position.x + _move.x * usedSpeed,
+			this.transform.parent.position.x,
+			this.transform.parent.position.x + _move.x * usedSpeed,
 			ref _velocity.x,
 			smoothTime
 			);
 		targetY = Mathf.SmoothDamp (
-			transform.position.y,
-			transform.position.y + _move.y * usedSpeed,
-			ref _velocity.y,
+			this.transform.parent.position.z,
+			this.transform.parent.position.z + _move.z * usedSpeed,
+			ref _velocity.z,
 			smoothTime
 		);
 
-		bool moving = targetX != transform.position.x
-			|| targetY != transform.position.y;
+		bool moving = targetX != this.transform.parent.position.x
+			|| targetY != this.transform.parent.position.z;
 
 		if (moving) {
-			transform.position = new Vector3(targetX, targetY, transform.position.z);
+			this.transform.parent.position = new Vector3(targetX, this.transform.parent.position.y, targetY);
 		}
 
 		animator.SetBool("Moving", moving);
@@ -104,7 +104,7 @@ public abstract class UnitController : MonoBehaviour {
 
 	protected virtual void _RelocateForMeet(Transform target) {
 		var targetX = target.position.x;
-		var selfX = transform.position.x;
+		var selfX = this.transform.parent.position.x;
 
 		if (targetX > selfX) {
 			selfX = targetX;
@@ -113,10 +113,10 @@ public abstract class UnitController : MonoBehaviour {
 			targetX = selfX - 2.5f;
 		}
 
-		target.position = new Vector3(targetX, transform.position.y, target.position.z);
+		target.position = new Vector3(targetX, this.transform.parent.position.y, target.position.z);
 		UnitController enemyController = target.GetComponent<UnitController>();
 		enemyController.animator.SetInteger("Direction", 2);
-		transform.position = new Vector3(selfX, transform.position.y, transform.position.z);
+		this.transform.parent.position = new Vector3(selfX, this.transform.parent.position.y, this.transform.parent.position.z);
 		animator.SetInteger("Direction", 3);
 	}
 }
